@@ -6,7 +6,8 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-<img align="center" src="https://th.bing.com/th/id/OIG1.QySatmfPMLE80vzB6LNZ?pid=ImgGn" width="400" alt="Logo"><
+<p align="center" ><img src="https://th.bing.com/th/id/OIG1.QySatmfPMLE80vzB6LNZ?pid=ImgGn" width="400" alt="Logo"></p>
+
 
 ## Projack Laravel Ini di rancang
 untuk tugas sekolah oke yang mau ikut kontribusi bisa bilang ke saya bantu juga sama coding yang kurang rapih saya kerena belum sepuh saya 
