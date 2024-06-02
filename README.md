@@ -4,8 +4,9 @@
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a><img src="https://th.bing.com/th/id/OIG1.QySatmfPMLE80vzB6LNZ?pid=ImgGn" width="400" alt="Laravel Logo">
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+<img src="https://th.bing.com/th/id/OIG1.QySatmfPMLE80vzB6LNZ?pid=ImgGn" width="400" alt="Laravel Logo">
 
 ## Projack Laravel Ini di rancang
 untuk tugas sekolah oke yang mau ikut kontribusi bisa bilang ke saya bantu juga sama coding yang kurang rapih saya kerena belum sepuh saya 
