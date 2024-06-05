@@ -35,7 +35,12 @@ class Authlogin extends Controller
         $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|min:8|',
+            'password' => [
+                'required',
+                'string',
+                'min:8',
+                'regex:/^(?=.*[a-zA-Z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/',
+            ],
         ]);
 
         User::factory()->create([
@@ -54,7 +59,7 @@ class Authlogin extends Controller
             Auth::logout();
             $request->session()->invalidate();
             $request->session()->regenerateToken(); 
-            return redirect()->route('loginpage')->with('success', 'Anda telah berhasil logout.');
+            return redirect()->route('loginpage')->with('sukses', 'Anda telah berhasil logout.');
         }
 
 }

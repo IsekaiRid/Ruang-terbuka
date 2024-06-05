@@ -27,7 +27,7 @@
                 </li>
             @endif
             <li class="nav-item active">
-                <a class="nav-link" href="{{ route('viewhome') }}">
+                <a class="nav-link" href="{{ route('viewcontet') }}">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Testing Akun</span></a>
             </li>
