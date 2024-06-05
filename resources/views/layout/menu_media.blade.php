@@ -10,6 +10,12 @@
             <span>Home</span>
         </a>
     </li>
+    <li class="nav-item active mt-1">
+        <a class="nav-link" href="{{ route('viewcontet') }}">
+            <i class="fas fa-fw fa-home"></i>
+            <span>Profile</span>
+        </a>
+    </li>
 </ul>
 
 
