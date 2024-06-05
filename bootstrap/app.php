@@ -2,6 +2,7 @@
 
 use App\Http\Middleware\CekAuthlogin;
 use App\Http\Middleware\CekRoleUsert;
+use App\Http\Middleware\CekUserSosial;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
@@ -17,6 +18,7 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->alias([
             'loginaAuth' => CekAuthlogin::class,
             'checkRole' => CekRoleUsert::class,
+            'checkSosial' => CekUserSosial::class
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {

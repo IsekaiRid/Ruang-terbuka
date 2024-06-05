@@ -20,7 +20,7 @@
     <div class="card p-3">
         <div class="card shadow mb-4">
             <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+                <h6 class="m-0 font-weight-bold text-primary">DataTables Usert</h6>
             </div>
             <div class="card-body">
                 <a class="btn btn-primary mb-3" data-toggle="modal" data-target="#modal-add">
@@ -128,7 +128,6 @@
                                                 </button>
                                             </div>
                                             <form action="{{ route('users.destroy',$d->id) }}" method="POST">
-                                                @csrf
                                                 @csrf
                                                 @method('DELETE')
                                                 <div class="modal-footer">
